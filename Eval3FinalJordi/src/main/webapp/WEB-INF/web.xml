@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+  <servlet>
+    <servlet-name>HelloAppEngine</servlet-name>
+    <servlet-class>com.evalfinal.jordi.HelloAppEngine</servlet-class>
+  </servlet>
+<!--   <servlet-mapping>
+    <servlet-name>HelloAppEngine</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping> -->
+  <welcome-file-list>
+    <welcome-file>index.htm</welcome-file>
+  </welcome-file-list>
+
+  
+  <servlet>
+    <servlet-name>getalladmin</servlet-name>
+    <servlet-class>servlet.GetAllAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getalladmin</servlet-name>
+    <url-pattern>/getalladmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>listadmin</servlet-name>
+    <servlet-class>servlet.ListAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>listadmin</servlet-name>
+    <url-pattern>/listadmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>removeAdmin</servlet-name>
+    <servlet-class>servlet.RemoveAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>removeAdmin</servlet-name>
+    <url-pattern>/removeAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>removeGallery</servlet-name>
+    <servlet-class>servlet.RemoveGallery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>removeGallery</servlet-name>
+    <url-pattern>/removeGallery</url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+    <servlet-name>updateAdmin</servlet-name>
+    <servlet-class>servlet.UpdateAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateAdmin</servlet-name>
+    <url-pattern>/updateAdmin</url-pattern>
+  </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>updateGallery</servlet-name>
+    <servlet-class>servlet.UpdateGallery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateGallery</servlet-name>
+    <url-pattern>/updateGallery</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+    <servlet-name>createAdmin</servlet-name>
+    <servlet-class>servlet.CreateAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>createAdmin</servlet-name>
+    <url-pattern>/createAdmin</url-pattern>
+  </servlet-mapping>
+     
+  <servlet>
+    <servlet-name>createGallery</servlet-name>
+    <servlet-class>servlet.CreateGallery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>createGallery</servlet-name>
+    <url-pattern>/createGallery</url-pattern>
+  </servlet-mapping>
+      
+  <servlet>
+    <servlet-name>createItem</servlet-name>
+    <servlet-class>servlet.CreateItem</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>createItem</servlet-name>
+    <url-pattern>/createItem</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>getGallery</servlet-name>
+    <servlet-class>servlet.GetGalleries</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getGallery</servlet-name>
+    <url-pattern>/getGallery</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>getItems</servlet-name>
+    <servlet-class>servlet.GetItems</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getItems</servlet-name>
+    <url-pattern>/getItems</url-pattern>
+  </servlet-mapping>
+</web-app>
+  
