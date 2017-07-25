@@ -1,4 +1,5 @@
-Desarrollo y despliegue de una aplicacion Java en el modelo de base de datos.
+Desarrollo y despliegue de una aplicacion Java en el modelo de base de datos
+============================================================================
 
 La aplicación implementa una capa de presentación, negociación y acceso a datos.
 Utiliza MySQL, en local y en Google Cloud.
@@ -7,18 +8,15 @@ Utiliza MySQL, en local y en Google Cloud.
 
 	public Set<Admin> getAllAdmin()
 	public void createAdmin(Admin admin)
-    public void removeAdmin(Admin admin)
-    public void updateAdmin(Admin admin)
+        public void removeAdmin(Admin admin)
+        public void updateAdmin(Admin admin)
 
-    public public Set<Gallery> getGalleries(int adminId)
-ublic void createGallery(Admin admin, Gallery gallery)
-public void removeAdmin(Gallery gallery)
-
+        public public Set<Gallery> getGalleries(int adminId)
+        public void createGallery(Admin admin, Gallery gallery)
+        public void removeAdmin(Gallery gallery)
 	public void updateAdmin(Gallery gallery)
-	
-	
 
-public Set<Item> getGalleries(int galleryId)
+        public Set<Item> getGalleries(int galleryId)
 
 
 
