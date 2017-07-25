@@ -25,40 +25,40 @@ Utiliza MySQL, en local y en Google Cloud.
 Admin.class
            
      		id:int
-		name:String
-		galleries:Set<Gallery>
-		Relacion con cascade  Admin (one  -->  many) Gallery
+     		name:String
+     		galleries:Set<Gallery>
+     		Relacion con cascade  Admin (one  -->  many) Gallery
 	
 Gallery.class
            
      		id:int
-    		name:String
-    		description:String
-    		admin:Admin
-    		items:Set<Item>
-    		Relacion   Gallery (one  -->  many) Item
+     		name:String
+     		description:String
+     		admin:Admin
+     		items:Set<Item>
+     		Relacion   Gallery (one  -->  many) Item
 	
 Item.class    		
     
-		id:int
-		name:String
-    		description:String
-    		price:float
-    		Relacion   Item (one  -->  many) Comment
+     		id:int
+     		name:String
+     		description:String
+     		price:float
+     		Relacion   Item (one  -->  many) Comment
 		
 Comment.class
     
-		id:int    
-		rate:int
-		mensaje:String    
-		item:item    
-		user:User    
-		Relacion   Comment (one  -->  one) User
+     		id:int    
+     		rate:int
+     		mensaje:String    
+     		item:item    
+     		user:User    
+     		Relacion   Comment (one  -->  one) User
 
 User.class
     
-		id:int
-		name:String
+     		id:int
+     		name:String
 
 
 
