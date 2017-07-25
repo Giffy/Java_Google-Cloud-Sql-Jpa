@@ -6,15 +6,16 @@ Utiliza MySQL, en local y en Google Cloud.
 
 * Definicion de interface AdminServices con los metodos:
 
-	public Set<Admin> getAllAdmin()
-	public void createAdmin(Admin admin)
-        public void removeAdmin(Admin admin)
-        public void updateAdmin(Admin admin)
-        public public Set<Gallery> getGalleries(int adminId)
-        public void createGallery(Admin admin, Gallery gallery)
-        public void removeAdmin(Gallery gallery)
-	public void updateAdmin(Gallery gallery)
-	public Set<Item> getGalleries(int galleryId)
+           
+     		public Set<Admin> getAllAdmin()
+     		public void createAdmin(Admin admin)
+     		public void removeAdmin(Admin admin)
+     		public void updateAdmin(Admin admin)
+     		public public Set<Gallery> getGalleries(int adminId)
+     		public void createGallery(Admin admin, Gallery gallery)
+     		public void removeAdmin(Gallery gallery)
+     		public void updateAdmin(Gallery gallery)
+     		public Set<Item> getGalleries(int galleryId)
 
 
 
@@ -29,7 +30,8 @@ Admin.class
 		Relacion con cascade  Admin (one  -->  many) Gallery
 	
 Gallery.class
-		id:int
+           
+     		id:int
     		name:String
     		description:String
     		admin:Admin
@@ -53,10 +55,9 @@ Comment.class
 		user:User    
 		Relacion   Comment (one  -->  one) User
 
-	User.class
+User.class
     
 		id:int
-    
 		name:String
 
 
