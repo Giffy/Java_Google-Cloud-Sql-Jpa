@@ -10,16 +10,6 @@ Utiliza MySQL, en local y en Google Cloud.
 	public void createAdmin(Admin admin)
         public void removeAdmin(Admin admin)
         public void updateAdmin(Admin admin)
-
-        public public Set<Gallery> getGalleries(int adminId)
-        public void createGallery(Admin admin, Gallery gallery)
-        public void removeAdmin(Gallery gallery)
-	public void updateAdmin(Gallery gallery)
-
-        public Set<Admin> getAllAdmin()
-	public void createAdmin(Admin admin)
-        public void removeAdmin(Admin admin)
-        public void updateAdmin(Admin admin)
         public public Set<Gallery> getGalleries(int adminId)
         public void createGallery(Admin admin, Gallery gallery)
         public void removeAdmin(Gallery gallery)
